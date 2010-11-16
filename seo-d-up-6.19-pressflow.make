@@ -35,7 +35,7 @@ projects[webform][subdir] = "contrib"
 projects[ddblock][subdir] = "contrib"
 projects[taxonomy_image][subdir] = "contrib"
 projects[galleryformatter][subdir] = "contrib"
-projects[googlefonts][subdir] = "contrib"
+projects[google_fonts][subdir] = "contrib"
 
 ; Menus
 projects[menutrails][subdir] = "contrib"
