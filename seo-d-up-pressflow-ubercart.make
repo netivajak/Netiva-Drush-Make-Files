@@ -3,7 +3,7 @@ core = 6.x
 projects[pressflow][type] = "core"
 projects[pressflow][download][type] = "get"
 projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-current.tar.gz"
-
+api = 2
 
 ; Modules
 projects[memcache][subdir] = "contrib"
@@ -16,6 +16,9 @@ projects[imce_wysiwyg][subdir] = "contrib"
 ;projects[wysiwyg] = "contrib"
 ; Commented out - invalied version errors in drush make
 ;projects[wysiwyg_filter][subdir] = "contrib"
+
+; Ecommerce/Ubercart
+projects[ubercart][subdir]="contrib"
 
 ; CCK/Image/Content
 projects[cck][subdir] = "contrib"
